@@ -1,0 +1,86 @@
+/* reset básico */
+
+/*IMPORTANTE: INSERIR AQUI APENAS O ESTILO QUE VAI SER APLICADO A TODAS AS PÁGINA, QUE SÃO A BARRA DE NAVEGAÇÃO E NO FOOTER*/
+
+/* Nome da fonte importada: Josefin Sans */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+/* Nome da fonte importada: Roboto Mono */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.texto {
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+  /* Inicia oculto */
+}
+
+.texto.ativo {
+  display: block;
+  /* Mostra quando ativo */
+}
+
+.texto h2 {
+  font-size: 2em;
+}
+
+.texto p {
+  line-height: 1.6;
+  margin: 10px auto;
+  /* Margem superior e inferior nos parágrafos */
+  width: 80%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Texto responsivo */
+
+@media (max-width: 480px) {
+  .texto h2 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .texto p {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
+
+/* classes de utilidade */
+
+.margin-bottom-100 {
+  margin-bottom: 30px;
+}
+
+.padding-bottom-300 {
+  padding-bottom: 90px;
+}
+
+.visible {
+  display: block;
+}
+
+.non-visible {
+  display: none;
+}
+
+/* desabilita o scroll quando o pop-up é mostrado */
+.active-pop-up {
+  overflow-y: hidden;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.slide {
+  display: block;
+}

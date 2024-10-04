@@ -1,0 +1,180 @@
+[
+  {
+    "equipeId": "andretti",
+    "nameEquipe": "Buemi",
+    "descricao": "Sébastien Buemi - Team Envision Racing",
+    "pontuacao": "Pontuação na temporada - 53 pontos",
+    "pontuacaoPorRodada": [5, 8, 12, 6, 8, 4, 5, 10, 0, 3, 7, 6, 0, 8, 6, 10],
+    "equipeImages": ["src/assets/img/pilotos/buemi.png"]
+  },
+  {
+    "equipeId": "cupra",
+    "nameEquipe": "Dacosta",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 34 pontos",
+    "pontuacaoPorRodada": [3, 5, 7, 4, 5, 6, 2, 5, 4, 6, 3, 4, 5, 8, 6, 5],
+    "equipeImages": ["src/assets/img/pilotos/dacosta.png"]
+  },
+  {
+    "equipeId": "ds",
+    "nameEquipe": "Dennis",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 45 pontos",
+    "pontuacaoPorRodada": [8, 10, 5, 8, 6, 5, 3, 6, 4, 8, 6, 5, 4, 7, 9, 10],
+    "equipeImages": ["src/assets/img/pilotos/dennis.png"]
+  },
+  {
+    "equipeId": "envision",
+    "nameEquipe": "Digrassi",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 40 pontos",
+    "pontuacaoPorRodada": [5, 7, 8, 5, 6, 5, 3, 5, 5, 6, 4, 7, 4, 9, 6, 8],
+    "equipeImages": ["src/assets/img/pilotos/digrassi.png"]
+  },
+  {
+    "equipeId": "ert",
+    "nameEquipe": "Fenestraz",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 25 pontos",
+    "pontuacaoPorRodada": [2, 3, 5, 6, 5, 4, 2, 6, 4, 5, 3, 4, 5, 6, 4, 5],
+    "equipeImages": ["src/assets/img/pilotos/fenestraz.png"]
+  },
+  {
+    "equipeId": "jaguar",
+    "nameEquipe": "Frijns",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 30 pontos",
+    "pontuacaoPorRodada": [3, 6, 4, 5, 4, 5, 6, 5, 5, 3, 4, 6, 5, 6, 4, 7],
+    "equipeImages": ["src/assets/img/pilotos/frijns.png"]
+  },
+  {
+    "equipeId": "mahindra",
+    "nameEquipe": "Gunther",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 22 pontos",
+    "pontuacaoPorRodada": [4, 3, 5, 2, 5, 4, 3, 4, 2, 3, 4, 5, 3, 6, 5, 5],
+    "equipeImages": ["src/assets/img/pilotos/gunther.png"]
+  },
+  {
+    "equipeId": "maserati",
+    "nameEquipe": "Hughes",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 18 pontos",
+    "pontuacaoPorRodada": [5, 4, 6, 4, 5, 3, 6, 3, 3, 5, 2, 4, 6, 4, 4, 7],
+    "equipeImages": ["src/assets/img/pilotos/hughes.png"]
+  },
+  {
+    "equipeId": "mclaren",
+    "nameEquipe": "Lotterer",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 20 pontos",
+    "pontuacaoPorRodada": [4, 6, 5, 4, 6, 3, 2, 5, 3, 5, 4, 3, 2, 4, 6, 5],
+    "equipeImages": ["src/assets/img/pilotos/lotterer2.png"]
+  },
+  {
+    "equipeId": "nissan",
+    "nameEquipe": "Evans",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 50 pontos",
+    "pontuacaoPorRodada": [10, 8, 7, 8, 6, 7, 9, 5, 8, 7, 9, 5, 6, 8, 7, 10],
+    "equipeImages": ["src/assets/img/pilotos/mitch-evans.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Mortara",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 33 pontos",
+    "pontuacaoPorRodada": [5, 8, 5, 6, 5, 6, 4, 7, 3, 4, 5, 6, 4, 6, 7, 4],
+    "equipeImages": ["src/assets/img/pilotos/mortara.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Muller",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 28 pontos",
+    "pontuacaoPorRodada": [6, 4, 5, 5, 6, 3, 5, 4, 3, 4, 5, 6, 2, 4, 7, 7],
+    "equipeImages": ["src/assets/img/pilotos/muller.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Nato",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 36 pontos",
+    "pontuacaoPorRodada": [6, 8, 7, 6, 8, 5, 7, 6, 4, 5, 6, 8, 5, 6, 6, 7],
+    "equipeImages": ["src/assets/img/pilotos/nato.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Cassidy",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 44 pontos",
+    "pontuacaoPorRodada": [8, 10, 10, 8, 7, 9, 6, 9, 7, 8, 6, 9, 7, 8, 7, 8],
+    "equipeImages": ["src/assets/img/pilotos/nick-cassidy.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Rast",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 25 pontos",
+    "pontuacaoPorRodada": [6, 4, 5, 5, 4, 6, 3, 4, 5, 6, 3, 6, 4, 4, 5, 6],
+    "equipeImages": ["src/assets/img/pilotos/rast2.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Rowland",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 27 pontos",
+    "pontuacaoPorRodada": [5, 6, 5, 5, 7, 6, 3, 4, 5, 7, 6, 4, 3, 5, 6, 8],
+    "equipeImages": ["src/assets/img/pilotos/rowland.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Bird",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 32 pontos",
+    "pontuacaoPorRodada": [7, 6, 8, 6, 7, 5, 6, 8, 7, 5, 8, 6, 5, 7, 8, 6],
+    "equipeImages": ["src/assets/img/pilotos/sam-bird.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Sette-Câmara",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 30 pontos",
+    "pontuacaoPorRodada": [5, 7, 6, 4, 6, 4, 7, 6, 5, 7, 6, 6, 4, 5, 5, 7],
+    "equipeImages": ["src/assets/img/pilotos/sette-camara.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Ticktum",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 24 pontos",
+    "pontuacaoPorRodada": [4, 5, 6, 4, 5, 6, 4, 5, 4, 5, 6, 5, 3, 4, 6, 5],
+    "equipeImages": ["src/assets/img/pilotos/ticktum.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Vandoorne",
+    "descricao": "",
+    "pontuacao": "Pontuação na temporada - 50 pontos",
+    "pontuacaoPorRodada": [
+      10, 10, 9, 8, 9, 10, 8, 10, 9, 9, 10, 9, 9, 10, 8, 10
+    ],
+    "equipeImages": ["src/assets/img/pilotos/vandoorne.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Vergne",
+    "descricao": "lorem",
+    "pontuacao": "Pontuação na temporada - 35 pontos",
+    "pontuacaoPorRodada": [6, 7, 6, 5, 6, 8, 7, 6, 7, 5, 6, 6, 5, 8, 7, 6],
+    "equipeImages": ["src/assets/img/pilotos/vergne.png"]
+  },
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Wehrlein",
+    "descricao": "lorem",
+    "pontuacao": "Pontuação na temporada - 29 pontos",
+    "pontuacaoPorRodada": [6, 4, 5, 5, 5, 6, 5, 6, 4, 4, 7, 5, 5, 6, 4, 6],
+    "equipeImages": ["src/assets/img/pilotos/wehrlein.png"]
+  }
+]

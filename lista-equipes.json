@@ -1,0 +1,125 @@
+[
+  {
+    "equipeId": "andretti",
+    "nameEquipe": "Andretti",
+    "descricao": "A equipe Andretti tem uma longa história na Fórmula E, competindo desde a primeira temporada em 2014/15. Com um legado sólido, a equipe norte-americana retorna para a era Gen3, mantendo Jake Dennis pela terceira temporada consecutiva e adicionando Andre Lotterer, experiente piloto do automobilismo alemão. A Andretti formou uma parceria significativa com a BMW por três temporadas. A BMW, além de fornecer carros de segurança e oficiais, se tornou uma equipe de fábrica antes da temporada 2018/19. Durante a temporada 2017/18, a BMW ofereceu suporte técnico, e Antonio Felix da Costa obteve um sexto lugar em Hong Kong, apesar da equipe terminar em último no campeonato. Na temporada 2018/19, como equipe de fábrica, a Andretti estreou o BMW iFE.18 com Da Costa e Alex Sims. O time terminou em quinto lugar, e para 2019/20, contratou Maximilian Guenther, que venceu em Santiago e Tempelhof, enquanto Sims ficou em 13º lugar. A temporada 7 foi destaque para Jake Dennis, que brilhou com vitórias em Valência e Londres, terminando em terceiro no campeonato. Na temporada 8, Dennis, ao lado de Oliver Askew, manteve-se competitivo com vitórias em Diriyah e Londres. Com Lotterer a bordo, a Andretti está pronta para a nova era da Fórmula E e do Gen3, buscando continuar sua trajetória de sucesso e competitividade no campeonato.",
+    "equipeImages": [
+      "src/assets/img/equipes/andretti/andretti2.jpeg",
+      "src/assets/img/equipes/andretti/andretti3.jpeg",
+      "src/assets/img/equipes/andretti/andretti4.jpeg",
+      "src/assets/img/equipes/andretti/andretti5.png"
+    ]
+  },
+
+  {
+    "equipeId": "cupra",
+    "nameEquipe": "ABT Cupra",
+    "descricao": "A equipe ABT CUPRA compete na Fórmula E como um time cliente, utilizando veículos da Mahindra Racing. No coração do Mahindra M10 Electro está o trem de força desenvolvido pela ZF – o único componente, além do software, que os fabricantes têm permissão para desenvolver por conta própria. De resto, o carro da terceira geração da Fórmula E, incluindo bateria, aerodinâmica e os pneus padrão Hankook, é idêntico para todos os participantes. O carro entrega 300 kW durante as corridas e 350 kW nos duelos de qualificação. A ABT foi um membro fundador da Fórmula E e participou de todas as corridas nos primeiros sete anos. Seus maiores sucessos incluem a vitória na primeira corrida da história da Fórmula E em 13 de setembro de 2014, em Pequim, o campeonato de pilotos de Lucas di Grassi em 2017 e o campeonato de equipes no ano seguinte. Ainda como uma equipe privada de 2014 a 2017, o time de Kempten assumiu os carros de corrida da Audi de 2017 a 2021. Após uma pausa de um ano, a equipe retornou ao Campeonato Mundial em 2023.",
+    "equipeImages": [
+      "src/assets/img/equipes/cupra/cupra2.jpg",
+      "src/assets/img/equipes/cupra/cupra3.jpg",
+      "src/assets/img/equipes/cupra/cupra4.jpg",
+      "src/assets/img/equipes/cupra/cupra5.jpg"
+    ]
+  },
+
+  {
+    "equipeId": "ds",
+    "nameEquipe": "DS Penske",
+    "descricao": "A DS PENSKE, uma das equipes mais bem-sucedidas da Fórmula E, inicia um novo capítulo como parceira da PENSKE AUTOSPORT. A equipe, agora denominada DS PENSKE, conta com o atual Campeão Mundial Stoffel Vandoorne e o bicampeão Jean-Eric Vergne para o início da era Gen 3. A DS entrou na série em 2015 e conquistou dois títulos, sendo superada apenas pelos rivais franceses da Renault em termos de campeonatos na história da Fórmula E. Fundada por Jay Penske em 2007, a equipe PENSKE AUTOSPORT é uma presença constante na Fórmula E desde a temporada inaugural de 2014/15, competindo em todas as corridas até hoje. Com sede em Los Angeles, Califórnia, a equipe também possui operações em Silverstone, Reino Unido. A DS PENSKE começa a era Gen 3 com grandes expectativas, contando com a expertise da DS Automobiles e a habilidade comprovada de seus pilotos campeões para buscar mais sucessos na Fórmula E.",
+    "equipeImages": [
+      "src/assets/img/equipes/ds/ds2.jpeg",
+      "src/assets/img/equipes/ds/ds3.webp",
+      "src/assets/img/equipes/ds/ds4.webp",
+      "src/assets/img/equipes/ds/ds5.jpg"
+    ]
+  },
+
+  {
+    "equipeId": "envision",
+    "nameEquipe": "Envision Virgin Racing",
+    "descricao": "A Envision Virgin Racing Formula E Team é uma das equipes fundadoras e mais bem-sucedidas do Campeonato Mundial de Fórmula E da ABB FIA. Com soluções e tecnologias fornecidas pela Envision, a equipe foi a primeira a ser certificada como carbono neutro no nível PAS 2060. Como uma organização orientada por propósitos, a sustentabilidade está no nosso DNA e no de nossos proprietários e parceiros, destacada pelo nosso programa ambiental \"Race Against Climate Change\". Conhecida como a \"equipe mais verde no grid mais verde\", a Envision Virgin Racing também foi a primeira a assinar o UNFCCC Sports for Climate Action Framework, além de ser uma das poucas equipes a alcançar a Acreditação de Sustentabilidade 3 Estrelas da FIA. A equipe também é parceira do maior evento climático, a cúpula COP26 da ONU, \"Together for our Planet\", realizada no Reino Unido em novembro. Na pista, a equipe continua sendo uma das mais bem-sucedidas de todos os tempos, com 11 vitórias e 30 pódios, e permanece como a única equipe a registrar vitórias em todas as temporadas até hoje.",
+    "equipeImages": [
+      "src/assets/img/equipes/envision/envision2.webp",
+      "src/assets/img/equipes/envision/envision3.webp",
+      "src/assets/img/equipes/envision/envision5.webp"
+    ]
+  },
+
+  {
+    "equipeId": "ert",
+    "nameEquipe": "ERT Formula E",
+    "descricao": "A ERT Formula E Team é uma equipe de ponta no Campeonato Mundial de Fórmula E da ABB FIA, destacando-se por sua inovação tecnológica e compromisso com a sustentabilidade. Desde sua fundação, a equipe tem se dedicado a desenvolver soluções avançadas para veículos elétricos, contribuindo para a evolução do esporte e do transporte sustentável. A ERT Formula E Team adota uma abordagem orientada por dados e tecnologia de ponta para otimizar o desempenho de seus carros em cada corrida. Com uma equipe técnica altamente qualificada e pilotos talentosos, a ERT tem alcançado resultados impressionantes, acumulando diversas vitórias e pódios ao longo das temporadas. O compromisso da equipe com a sustentabilidade vai além das pistas. A ERT Formula E Team implementa práticas ambientais responsáveis em todas as suas operações, desde o desenvolvimento dos carros até a logística dos eventos. A equipe também está envolvida em várias iniciativas ecológicas, promovendo a conscientização sobre as mudanças climáticas e a importância da energia limpa. Além de seu sucesso competitivo, a ERT Formula E Team se orgulha de ser um líder na promoção da mobilidade elétrica e da sustentabilidade. A equipe colabora estreitamente com parceiros e patrocinadores que compartilham sua visão de um futuro mais verde e eficiente em termos energéticos. Com uma trajetória marcada por inovação, desempenho e responsabilidade ambiental, a ERT Formula E Team continua a ser uma força dominante na Fórmula E, inspirando fãs e competidores a adotar um estilo de vida mais sustentável.",
+    "equipeImages": [
+      "src/assets/img/equipes/ert/ert2.jpg",
+      "src/assets/img/equipes/ert/ert3.jpg",
+      "src/assets/img/equipes/ert/ert4.jpg",
+      "src/assets/img/equipes/ert/ert5.png"
+    ]
+  },
+
+  {
+    "equipeId": "jaguar",
+    "nameEquipe": "Jaguar TCS Racing",
+    "descricao": "Jaguar TCS Racing é uma equipe britânica de automobilismo que compete no Campeonato Mundial de Fórmula E da FIA, uma categoria de corridas para monopostos elétricos. Fundada pela Jaguar Land Rover, a equipe está baseada em Grove, Oxfordshire, no Reino Unido, e fez sua estreia na temporada 2016-17. História e Entradas na Fórmula E Os rumores sobre a entrada da Jaguar na Fórmula E começaram em meados de 2015, e a confirmação oficial veio em dezembro do mesmo ano. Diferentemente de sua campanha na Fórmula 1, a Jaguar entrou na Fórmula E como fabricante, desenvolvendo seu próprio trem de força. A equipe substituiu a Trulli Formula E Team, que se retirou após a temporada 2015-16. Temporada de 2016-17 A Jaguar trouxe Adam Carroll e Mitch Evans como pilotos titulares e nomeou a Panasonic como principal patrocinador, formando a Panasonic Jaguar Racing. A temporada terminou com a equipe na décima posição, tendo como melhor resultado um quarto lugar no ePrix da Cidade do México. Temporada de 2017-18 Mitch Evans continuou na equipe, e Nelson Piquet Jr. foi contratado, substituindo Adam Carroll. A equipe marcou seus primeiros pontos e pódio na categoria, com Evans herdando o terceiro lugar no ePrix de Hong Kong após a desclassificação de Daniel Abt. Temporada de 2020-21 Jaguar anunciou Sam Bird como piloto ao lado de Mitch Evans, que já havia assinado um contrato de vários anos. A equipe também revelou seu novo trem de força, o I-Type 5, e se separou da Panasonic, passando a se chamar Jaguar Racing. Temporada de 2021-22 A equipe foi renomeada para Jaguar TCS Racing, mantendo Bird e Evans como pilotos. Thierry Bolloré foi nomeado presidente da equipe. Temporada de 2022-23 Entrando na era Gen3, Jaguar manteve Mitch Evans e Sam Bird. A equipe também começou a fornecer trens de força para a partir da temporada 2022-23, após assinar um contrato de múltiplos anos. Resultados Ao longo das temporadas, a Jaguar TCS Racing tem demonstrado evolução constante e compromisso com a inovação, mantendo-se como uma das equipes competitivas na Fórmula E.",
+    "equipeImages": [
+      "src/assets/img/equipes/jaguar/jaguar2.avif",
+      "src/assets/img/equipes/jaguar/jaguar3.png"
+    ]
+  },
+
+  {
+    "equipeId": "mahindra",
+    "nameEquipe": "Mahindra Racing",
+    "descricao": "A Mahindra Racing é uma equipe de automobilismo indiana de propriedade da fabricante de automóveis Mahindra & Mahindra. Desde sua fundação, a equipe tem sido um símbolo de inovação e excelência no esporte a motor, destacando-se como a primeira construtora da Índia a participar em competições internacionais de alto nível. Início e Expansão A Mahindra Racing fez sua estreia no Campeonato do Mundo FIM MotoGP em 2011, marcando a primeira participação de uma equipe indiana na prestigiada competição de motociclismo. Em 2012, a equipe ampliou sua presença no esporte ao participar do Campeonato Nacional Italiano de Motociclismo (CIV) e, em 2013, do Campeonato Internacional FIM CEV, continuando a representar a Índia em competições de motociclismo. Entrada na Fórmula E Em 2014, a Mahindra Racing deu um passo significativo ao se tornar uma das dez equipes fundadoras do Campeonato de Fórmula E da FIA, sendo a única representante indiana na categoria. A participação na Fórmula E marcou um novo capítulo para a equipe, destacando-se no cenário mundial de corridas de monopostos elétricos. Contribuições e Inovações A Mahindra Racing tem sido uma força constante na Fórmula E, contribuindo para o desenvolvimento de tecnologias sustentáveis e promovendo a mobilidade elétrica. A equipe se dedica a desenvolver soluções inovadoras para veículos elétricos, refletindo o compromisso da Mahindra & Mahindra com a sustentabilidade e a inovação. Destaques e Conquistas Ao longo dos anos, a Mahindra Racing acumulou várias conquistas notáveis na Fórmula E, destacando-se pela sua consistência e desempenho competitivo. A equipe é conhecida por seu espírito pioneiro e por representar a Índia com orgulho no cenário internacional de automobilismo. Com uma trajetória marcada pela inovação e pelo compromisso com a excelência, a Mahindra Racing continua a ser uma das principais equipes da Fórmula E, inspirando novas gerações de entusiastas do automobilismo e promovendo um futuro mais sustentável através da mobilidade elétrica.",
+    "equipeImages": [
+      "src/assets/img/equipes/mahindra/mahindra2.webp",
+      "src/assets/img/equipes/mahindra/mahindra3.jpg",
+      "src/assets/img/equipes/mahindra/mahindra4.webp"
+    ]
+  },
+
+  {
+    "equipeId": "maserati",
+    "nameEquipe": "Maserati MSG Racing",
+    "descricao": "A Maserati MSG Racing é uma equipe ítalo-monegasca de automobilismo que atualmente disputa a Fórmula E, campeonato este que é organizado pela Federação Internacional de Automobilismo. A equipe foi formada a partir da Venturi Racing e fez sua estreia na categoria na temporada de 2022-23.",
+    "equipeImages": [
+      "src/assets/img/equipes/maserati/maserati2.webp",
+      "src/assets/img/equipes/maserati/maserati3.jpg",
+      "src/assets/img/equipes/maserati/maserati4.webp"
+    ]
+  },
+
+  {
+    "equipeId": "mclaren",
+    "nameEquipe": "Neom MCLaren FORMULA E TEAM",
+    "descricao": "A McLaren Formula E Team, competindo atualmente como NEOM McLaren Formula E Team, é uma equipe britânica de automobilismo que atualmente disputa a Fórmula E, campeonato este que é organizado pela Federação Internacional de Automobilismo.",
+    "equipeImages": [
+      "src/assets/img/equipes/mclaren/mclaren2.webp",
+      "src/assets/img/equipes/mclaren/mclaren3.webp",
+      "src/assets/img/equipes/mclaren/mclaren4.webp"
+    ]
+  },
+
+  {
+    "equipeId": "nissan",
+    "nameEquipe": "Nissan FORMULA E TEAM",
+    "descricao": "A Nissan Formula E Team representa o compromisso da Nissan com a inovação e a sustentabilidade no automobilismo. A equipe é um braço da gigante automotiva japonesa Nissan, que traz sua vasta experiência em tecnologias de veículos elétricos para o competitivo mundo da Fórmula E. Entrada na Fórmula E A Nissan fez sua estreia na Fórmula E na temporada 2018-19, substituindo a equipe Renault e.dams. Esta transição marcou um momento significativo, já que a Renault e.dams havia sido uma das equipes mais bem-sucedidas na história da Fórmula E. A Nissan continuou a parceria com a e.dams, uma equipe com um histórico impressionante de vitórias e títulos na categoria. Compromisso com a Sustentabilidade A entrada da Nissan na Fórmula E está alinhada com sua visão global de promover a mobilidade elétrica e reduzir a pegada de carbono. A Fórmula E serve como um laboratório avançado para testar e desenvolver novas tecnologias de veículos elétricos, que posteriormente podem ser aplicadas nos carros de produção em massa da Nissan. Desempenho e Conquistas Desde sua estreia, a Nissan Formula E Team tem mostrado um desempenho sólido. A equipe rapidamente se estabeleceu como uma das principais competidoras, com pilotos talentosos e um forte suporte técnico. Em sua primeira temporada, a equipe conseguiu vários pódios e terminou em quarto lugar na classificação de equipes, demonstrando seu potencial competitivo. A temporada 2019-20 viu a Nissan continuar seu progresso, com mais pódios e uma presença constante entre as equipes de ponta. A equipe é conhecida por sua eficiência energética e capacidade de maximizar o desempenho do carro durante as corridas. Tecnologia e Inovação A Nissan utiliza a Fórmula E para explorar novos limites em tecnologia de veículos elétricos. A equipe desenvolve continuamente seu trem de força e sistemas de gestão de energia, buscando alcançar maior eficiência e desempenho. Esta pesquisa e desenvolvimento são fundamentais para a evolução dos veículos elétricos de consumo, reforçando a posição da Nissan como líder em mobilidade sustentável. Visão de Futuro Com um compromisso firme em promover a mobilidade elétrica, a Nissan Formula E Team continua a ser uma peça-chave na estratégia global da Nissan. A equipe não apenas compete para vencer, mas também para inspirar e acelerar a adoção de veículos elétricos em todo o mundo.",
+    "equipeImages": [
+      "src/assets/img/equipes/nissan/nissan2.jpg",
+      "src/assets/img/equipes/nissan/nissan3.jpg",
+      "src/assets/img/equipes/nissan/nissan4.jpg"
+    ]
+  },
+
+  {
+    "equipeId": "porsche",
+    "nameEquipe": "Tag Heuer Porsche FORMULA E TEAM",
+    "descricao": "A Porsche Formula E Team é a representação da icônica marca alemã no Campeonato Mundial de Fórmula E da FIA, trazendo consigo uma rica herança de sucesso no automobilismo e uma dedicação à inovação tecnológica. Com sua entrada na Fórmula E, a Porsche busca combinar sua expertise em engenharia automotiva com o compromisso de sustentabilidade e mobilidade elétrica. Entrada na Fórmula E A Porsche anunciou sua entrada na Fórmula E para a temporada 2019-20, marcando seu retorno ao automobilismo de monopostos após mais de 30 anos. A decisão de ingressar na Fórmula E está alinhada com a estratégia da empresa de promover a mobilidade elétrica e desenvolver tecnologias sustentáveis para o futuro. Estreia e Desempenho A estreia da Porsche na Fórmula E foi aguardada com grande expectativa. Em sua temporada inaugural, a equipe demonstrou um desempenho promissor. André Lotterer, um dos pilotos principais, conseguiu um pódio logo na primeira corrida da equipe, no ePrix de Diriyah, indicando o potencial competitivo da Porsche. Ao longo das temporadas subsequentes, a Porsche continuou a construir sua reputação na Fórmula E. A equipe focou em otimizar o desempenho do seu carro elétrico, o Porsche 99X Electric, e em desenvolver estratégias de corrida eficientes para maximizar o uso de energia durante as provas. Compromisso com a Inovação A Porsche utiliza a Fórmula E como um campo de testes avançado para suas tecnologias de veículos elétricos. O aprendizado obtido nas pistas de corrida é diretamente aplicado ao desenvolvimento de seus carros de rua, como o Porsche Taycan. A equipe investe pesadamente em pesquisa e desenvolvimento, buscando constantemente melhorar a eficiência e o desempenho de seus veículos elétricos. Parcerias e Colaborações A presença da Porsche na Fórmula E é fortalecida por colaborações estratégicas com parceiros tecnológicos e comerciais. Essas parcerias são essenciais para impulsionar a inovação e garantir que a equipe esteja sempre na vanguarda das tecnologias elétricas. Além disso, a Porsche trabalha em estreita colaboração com seus patrocinadores para promover a sustentabilidade e a mobilidade elétrica em um público global. Visão de Futuro A Porsche Formula E Team está comprometida com um futuro onde a mobilidade elétrica desempenha um papel central. A equipe vê a Fórmula E não apenas como uma plataforma para competir e vencer, mas também como uma oportunidade para contribuir significativamente para a transformação do setor automotivo em direção a um futuro mais sustentável.",
+    "equipeImages": [
+      "src/assets/img/equipes/porsche/porsche2.jpg",
+      "src/assets/img/equipes/porsche/porsche3.jpg",
+      "src/assets/img/equipes/porsche/porsche4.jpg"
+    ]
+  }
+]

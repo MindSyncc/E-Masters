@@ -1,0 +1,19 @@
+{
+  "usuarios": [
+    {
+      "id": "9b9c",
+      "usuario": "adm",
+      "senha": "123"
+    },
+    {
+      "id": "97a8",
+      "usuario": "adm1",
+      "senha": "123"
+    },
+    {
+      "id": "cfec",
+      "usuario": "adm10",
+      "senha": "123"
+    }
+  ]
+}

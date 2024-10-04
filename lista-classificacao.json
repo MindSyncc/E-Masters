@@ -1,0 +1,156 @@
+[
+  {
+    "posicao": 1,
+    "nome": "Nick Cassidy",
+    "equipe": "JAGUAR TCS RACING",
+    "desempenho": [16, 15, 26, 0, 4, 0, 15, 19, 26, 19, 15, 12, 0, 0, 0, 0],
+    "pontuacao": 167
+  },
+  {
+    "posicao": 2,
+    "nome": "Pascal Wehrlein",
+    "equipe": "TAG HEUER PORSCHE FORMULA E TEAM",
+    "desempenho": [28, 4, 6, 15, 10, 0, 26, 13, 10, 12, 18, 0, 0, 0, 0, 0],
+    "pontuacao": 132
+  },
+  {
+    "posicao": 3,
+    "nome": "Mitch Evans",
+    "equipe": "JAGUAR TCS RACING",
+    "desempenho": [10, 10, 1, 18, 0, 13, 0, 25, 12, 8, 25, 10, 0, 0, 0, 0],
+    "pontuacao": 131
+  },
+  {
+    "posicao": 4,
+    "nome": "Jake Dennis",
+    "equipe": "Andretti Formula E Team",
+    "desempenho": [2, 26, 0, 10, 15, 18, 18, 0, 0, 13, 11, 0, 0, 0, 0, 0],
+    "pontuacao": 113
+  },
+  {
+    "posicao": 5,
+    "nome": "Jean-Eric Vergne",
+    "equipe": "DS PENSKE",
+    "desempenho": [8, 21, 4, 6, 0, 8, 6, 12, 18, 1, 11, 6, 0, 0, 0, 0],
+    "pontuacao": 101
+  },
+  {
+    "posicao": 6,
+    "nome": "Antonio Felix Da Costa",
+    "equipe": "TAG HEUER PORSCHE FORMULA E TEAM",
+    "desempenho": [0, 0, 0, 8, 12, 0, 0, 6, 8, 25, 0, 25, 0, 0, 0, 0],
+    "pontuacao": 84
+  },
+  {
+    "posicao": 7,
+    "nome": "Sebastien Buemi",
+    "equipe": "ENGLISH MAHINDRA",
+    "desempenho": [12, 6, 2, 2, 26, 15, 0, 2, 0, 0, 0, 4, 0, 0, 0, 0],
+    "pontuacao": 69
+  },
+  {
+    "posicao": 8,
+    "nome": "Maximilian Guenther",
+    "equipe": "Maserati MSG Racing",
+    "desempenho": [4, 0, 10, 4, 0, 4, 0, 15, 6, 0, 2, 8, 0, 0, 0, 0],
+    "pontuacao": 53
+  },
+  {
+    "posicao": 9,
+    "nome": "Hughes",
+    "equipe": "NEOM McLaren Formula E Team",
+    "desempenho": [6, 0, 12, 0, 0, 0, 7, 0, 0, 0, 0, 0, 21, 0, 0, 0],
+    "pontuacao": 46
+  },
+  {
+    "posicao": 10,
+    "nome": "Norman Nato",
+    "equipe": "Nissan Formula E Team",
+    "desempenho": [1, 8, 0, 0, 8, 6, 0, 1, 0, 0, 0, 16, 0, 0, 0, 0],
+    "pontuacao": 40
+  },
+  {
+    "posicao": 11,
+    "nome": "Sam Bird",
+    "equipe": "Jaguar TCS Racing",
+    "desempenho": [0, 12, 0, 25, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 38
+  },
+  {
+    "posicao": 12,
+    "nome": "Fenestraz",
+    "equipe": "Nissan Formula E Team",
+    "desempenho": [0, 0, 8, 0, 0, 2, 10, 4, 2, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 26
+  },
+  {
+    "posicao": 13,
+    "nome": "Oliver Howland",
+    "equipe": "Nissan Formula E Team",
+    "desempenho": [18, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0],
+    "pontuacao": 24
+  },
+  {
+    "posicao": 14,
+    "nome": "Frijins",
+    "equipe": "ROKiT Venturi Racing",
+    "desempenho": [0, 1, 18, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0],
+    "pontuacao": 23
+  },
+  {
+    "posicao": 15,
+    "nome": "Andre Lotterer",
+    "equipe": "Andretti Formula E Team",
+    "desempenho": [0, 0, 0, 6, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 18
+  },
+  {
+    "posicao": 16,
+    "nome": "Nico Müller",
+    "equipe": "ABT CUPRA Formula E Team",
+    "desempenho": [0, 0, 0, 0, 0, 6, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 18
+  },
+  {
+    "posicao": 17,
+    "nome": "Dan Ticktum",
+    "equipe": "ERT FORMULA E TEAM",
+    "desempenho": [0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 12
+  },
+  {
+    "posicao": 18,
+    "nome": "Kelvin van der Linde",
+    "equipe": "Mahindra Racing",
+    "desempenho": [0, 0, 2, 0, 0, 0, 1, 0, 8, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 11
+  },
+  {
+    "posicao": 19,
+    "nome": "Sérgio Sette Câmara",
+    "equipe": "ERT FORMULA E TEAM",
+    "desempenho": [0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
+    "pontuacao": 8
+  },
+  {
+    "posicao": 20,
+    "nome": "Stoffel Vandoorne",
+    "equipe": "DS PENSKE",
+    "desempenho": [0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 7
+  },
+  {
+    "posicao": 21,
+    "nome": "Nyck De Vries",
+    "equipe": "Mahindra Racing",
+    "desempenho": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0],
+    "pontuacao": 3
+  },
+  {
+    "posicao": 22,
+    "nome": "Edoardo Mortara",
+    "equipe": "Mahindra Racing",
+    "desempenho": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "pontuacao": 2
+  }
+]

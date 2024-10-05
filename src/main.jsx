@@ -13,6 +13,8 @@ import Noticias from "./routes/Noticias.jsx";
 import Jogo from "./routes/Jogo.jsx";
 import RegrasFormulaE from "./routes/RegrasFormulaE.jsx";
 import RegrasEmasters from "./routes/RegrasEmasters.jsx";
+import Ranking from "./routes/Ranking.jsx";
+import TesteApi from './routes/TesteApi.jsx'
 
 // Função que cria as rotas
 
@@ -36,6 +38,8 @@ const router = createBrowserRouter([
       { path: "/jogo", element: <Jogo /> },
       { path: "/regras-formula-e", element: <RegrasFormulaE /> },
       { path: "/regras-emasters", element: <RegrasEmasters /> },
+      { path: "/ranking", element: <Ranking /> },
+      {path: "/testeapi", element:<TesteApi/>}
     ],
   },
 ]);

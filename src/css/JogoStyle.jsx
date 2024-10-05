@@ -56,6 +56,7 @@ export const JogoStyle = styled.section`
   .card-car {
     position: relative;
     width:  15vw; /* Largura fixa para o botão do piloto */
+    max-width: 22rem;
     height: 30rem;
     border: 1px solid #ddd;
     border-radius: 8px;

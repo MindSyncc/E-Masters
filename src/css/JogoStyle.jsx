@@ -14,6 +14,7 @@ export const JogoStyle = styled.section`
 
   .div-pilot .choice {
     text-align: center;
+    margin-bottom: 4rem;
   }
 
   .section-pilot {
@@ -21,6 +22,13 @@ export const JogoStyle = styled.section`
     justify-content: center; /* Centraliza os itens no eixo horizontal */
     flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
     padding: 20px;
+  }
+
+  .section-car {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
   }
 
   .card-button {
@@ -45,33 +53,53 @@ export const JogoStyle = styled.section`
     margin-bottom: 10px;
   }
 
-  .card-button-car {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30vh; /* Largura fixa para o botão do piloto */
+  .card-car {
+    position: relative;
+    width:  15vw; /* Largura fixa para o botão do piloto */
+    height: 30rem;
     border: 1px solid #ddd;
     border-radius: 8px;
-    margin: 10px;
     background-color: black;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    font-size: 1.5rem;
-    text-align: center; /* Centraliza o texto */
     padding-bottom: 10px;
   }
 
-  .card-button-car img {
+  @media (max-width: 1024px) {
+    .card-car {
+      width:  25vw;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-car {
+      width:  60vw;
+    }
+  }
+
+  .card-car img {
+    position: absolute;
+    right: 0;
+    top: 0;
     /* Defina o tamanho da imagem */
-    width: 30vh;
+    width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-    height: auto;
+    height: 27rem;
     margin-bottom: 10px;
+  }
+
+  .card-car p {
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .div-pilot {
     padding: 20px;
+    text-align: center;
   }
 
   .button-game {

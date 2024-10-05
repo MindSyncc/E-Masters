@@ -10,7 +10,6 @@ const Equipes = () => {
   }
   let imagens = [
     "src/assets/img/equipes/ds/ds5.jpg",
-    "src/assets/img/equipes/andretti/andretti5.png",
     "src/assets/img/equipes/mahindra/mahindra4.webp",
     "src/assets/img/equipes/maserati/maserati.jpg",
     "src/assets/img/equipes/mclaren/mclaren.jpg",

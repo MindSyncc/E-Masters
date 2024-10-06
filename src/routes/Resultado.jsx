@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
+import {
+  Card,
+  Title,
+  SubTitle,
+  PilotoItem,
+  Container
+} from "../css/ResultadoStyle";
 
 const Resultado = () => {
   const [resultados, setResultados] = useState(null);
 
-  // Simulação: Aqui você pode buscar os resultados do backend ou sessionStorage
   useEffect(() => {
     const resultadosSalvos = sessionStorage.getItem("resultados");
     if (resultadosSalvos) {
@@ -12,40 +18,46 @@ const Resultado = () => {
   }, []);
 
   if (!resultados) {
-    return <div>Carregando resultados...</div>; // Mensagem de carregamento
+    return <div>Carregando resultados...</div>;
   }
 
   return (
-    <div>
-      <h2>Resultados da Corrida</h2>
+    <Container>
+      <Title>Resultados da Corrida</Title>
       
-      {/* Resultados da Corrida Principal */}
-      <h3>Corrida Principal</h3>
-      <p>Total Pontuação da Corrida Principal: {resultados.corridaPrincipal}</p>
-      
-      {/* Resultados da Corrida Classificatória */}
-      <h3>Corrida Classificatória</h3>
-      <p>Total Pontuação da Corrida Classificatória: {resultados.corridaClassificatoria}</p>
+      <Card>
+        <SubTitle>Corrida Principal</SubTitle>
+        <p>Total Pontuação: {resultados.corridaPrincipal}</p>
+      </Card>
 
-      {/* Pontuação dos Pilotos */}
-      <h3>Pontuação dos Pilotos</h3>
-      <ul>
-        {resultados.pilotosPontuacao.map((piloto, index) => (
-          <li key={index}>
-            <strong>{piloto.nome}</strong>:<br />
-            Corrida Principal: {piloto.corridaPrincipal} pontos<br />
-            Corrida Classificatória: {piloto.corridaClassificatoria} pontos
-          </li>
-        ))}
-      </ul>
+      <Card>
+        <SubTitle>Corrida Classificatória</SubTitle>
+        <p>Total Pontuação: {resultados.corridaClassificatoria}</p>
+      </Card>
 
-      {/* Pontuação da Equipe */}
-      <h3>Pontuação da Equipe</h3>
-      <p>
-        Corrida Principal: {resultados.equipePontuacao.principal} pontos<br />
-        Corrida Classificatória: {resultados.equipePontuacao.classificatoria} pontos
-      </p>
-    </div>
+      <Card>
+        <SubTitle>Pontuação dos Pilotos</SubTitle>
+        <ul>
+          {resultados.pilotosPontuacao.map((piloto, index) => (
+            <PilotoItem key={index}>
+              <div>
+                <strong>{piloto.nome}</strong>:<br />
+                Corrida Principal: {piloto.corridaPrincipal} pontos<br />
+                Corrida Classificatória: {piloto.corridaClassificatoria} pontos
+              </div>
+            </PilotoItem>
+          ))}
+        </ul>
+      </Card>
+
+      <Card>
+        <SubTitle>Pontuação da Equipe</SubTitle>
+        <p>
+          Corrida Principal: {resultados.equipePontuacao.principal} pontos<br />
+          Corrida Classificatória: {resultados.equipePontuacao.classificatoria} pontos
+        </p>
+      </Card>
+    </Container>
   );
 };
 

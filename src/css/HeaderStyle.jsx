@@ -5,7 +5,6 @@ export const HeaderStyle = styled.section`
   .container-header {
     width: 100%;
     position: absolute;
-    background-color: rgba(217, 217, 217, 0.2);
     z-index: 10;
   }
 
@@ -41,7 +40,6 @@ export const HeaderStyle = styled.section`
   }
 
   .logo-container {
-    background-color: #010f1c;
     color: white;
     display: flex;
     align-items: center;
@@ -133,7 +131,6 @@ export const HeaderStyle = styled.section`
     }
 
     .logo-container {
-      background-color: rgba(217, 217, 217, 0);
       margin: 0;
       padding: 0;
     }

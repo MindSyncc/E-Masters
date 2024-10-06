@@ -91,28 +91,7 @@ const Footer = () => {
       </div>
 
 
-      {/* Botão fixo para voltar ao menu */}
-      <a href="#header" style={{
-        position: 'fixed',
-        bottom: '30px',
-        right: '20px',
-        textDecoration: 'none',
       
-      
-      }}>
-        <button style={{
-          backgroundColor: 'gray',
-          color: 'white',
-          border: 'none',
-          borderRadius: '5px',
-          padding: '10px 15px',
-          cursor: 'pointer',
-          
-        }}>
-          Voltar ao Menu
-        </button>
-      </a>
-       
     </FooterStyle>
   );
 };

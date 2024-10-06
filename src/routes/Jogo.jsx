@@ -230,7 +230,7 @@ const Jogo = () => {
       if (prev.includes(piloto)) {
         return prev.filter((p) => p !== piloto);
       }
-      if (prev.length < 5) {
+      if (prev.length < 3) {
         return [...prev, piloto];
       }
       return prev;
@@ -246,7 +246,6 @@ const Jogo = () => {
     return {
       voltaMaisRapida:
         selectedPilotos[Math.floor(Math.random() * selectedPilotos.length)], // Seleciona um piloto aleatório
-      desqualificados: selectedPilotos.slice(0, 2), // Simula os dois primeiros pilotos como desqualificados
     };
   };
 
@@ -309,8 +308,8 @@ const Jogo = () => {
   // Função para calcular os pontos
   const calcularPontuacao = () => {
   console.log("Função calcularPontuacao foi chamada");
-  if (selectedPilotos.length !== 5) {
-    alert("Por favor, selecione 5 pilotos.");
+  if (selectedPilotos.length !== 3) {
+    alert("Por favor, selecione 3 pilotos.");
     return;
   }
 
@@ -335,22 +334,11 @@ const Jogo = () => {
     if (index === 0) pontosCorridaPrincipal += 10; // 1º lugar
     else if (index === 1) pontosCorridaPrincipal += 5; // 2º lugar
     else if (index === 2) pontosCorridaPrincipal += 3; // 3º lugar
-    else if (index === 3) pontosCorridaPrincipal += 2; // 4º lugar
-    else if (index === 4) pontosCorridaPrincipal += 1; // 5º lugar
 
     if (index === 0) pontosCorridaClassificatoria += 5; // 1º lugar
     else if (index === 1) pontosCorridaClassificatoria += 2.5; // 2º lugar
     else if (index === 2) pontosCorridaClassificatoria += 1.5; // 3º lugar
-    else if (index === 3) pontosCorridaClassificatoria += 1; // 4º lugar
-    else if (index === 4) pontosCorridaClassificatoria += 0.5; // 5º lugar
 
-    if (resultadosSimulados.desqualificados.includes(piloto)) {
-      pontosCorridaPrincipal -= 5;
-    }
-
-    if (resultadosSimulados.desqualificados.includes(piloto)) {
-      pontosCorridaClassificatoria -= 2.5;
-    }
 
     if (resultadosSimulados.voltaMaisRapida === piloto) {
       pontosCorridaPrincipal += 10;

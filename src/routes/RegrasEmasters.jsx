@@ -72,7 +72,7 @@ const RegrasFormulaE = () => {
               <li>  Cada piloto entre os 10 primeiros que forem acertados o jogador ganha 2.5 pontos. Exemplo: se o jogador acertar 7 dos 10 primeiros colocados, ele ganha 17.5 pontos.</li>
               <li>  Vencedor: Acertar o  vencedor dobra a pontuação desse piloto.</li>
               <li>  Volta Mais Rápida: Acertar o piloto que faz a volta mais rápida concede 5 pontos.</li>
-              <li>  Ultrapassagens: Cada ultrapassagem realizada dá 0,5 pontos, e cada ultrapassagem sofrida tira 0,2 pontos.</li>
+              <li>Ultrapassagens: Cada ultrapassagem realizada dá 0,5 pontos, e cada ultrapassagem sofrida tira 0,2 pontos.</li>
             </ul>
           </p>
         </section>

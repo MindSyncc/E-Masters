@@ -86,7 +86,33 @@ const Footer = () => {
         <div className="direitos">
           <p>Copyright @ 2024 - FórmulaE - Todos os direitos reservados</p>
         </div>
+
+       
       </div>
+
+
+      {/* Botão fixo para voltar ao menu */}
+      <a href="#header" style={{
+        position: 'fixed',
+        bottom: '30px',
+        right: '20px',
+        textDecoration: 'none',
+      
+      
+      }}>
+        <button style={{
+          backgroundColor: 'gray',
+          color: 'white',
+          border: 'none',
+          borderRadius: '5px',
+          padding: '10px 15px',
+          cursor: 'pointer',
+          
+        }}>
+          Voltar ao Menu
+        </button>
+      </a>
+       
     </FooterStyle>
   );
 };

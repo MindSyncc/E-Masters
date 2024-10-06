@@ -3,132 +3,17 @@
     {
       "id": "ca7e",
       "usuario": "adm",
-      "senha": "123",
-      "resultados": {
-        "corridaPrincipal": 21,
-        "corridaClassificatoria": 10.5,
-        "pilotosPontuacao": [
-          {
-            "nome": "Vandoorne",
-            "corridaPrincipal": 5,
-            "corridaClassificatoria": 2.5
-          },
-          {
-            "nome": "Vergne",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Ticktum",
-            "corridaPrincipal": 13,
-            "corridaClassificatoria": 6.5
-          },
-          {
-            "nome": "Sette-Câmara",
-            "corridaPrincipal": 2,
-            "corridaClassificatoria": 1
-          },
-          {
-            "nome": "Wehrlein",
-            "corridaPrincipal": 1,
-            "corridaClassificatoria": 0.5
-          },
-          {
-            "nome": "Sam Bird",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Rowland",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Rast",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Cassidy",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Nato",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          }
-        ],
-        "equipePontuacao": {
-          "principal": 5,
-          "classificatoria": 2.5
-        }
-      }
+      "senha": "123"
     },
     {
-      "id": "bb96",
-      "usuario": "julia",
-      "senha": "123",
-      "resultados": {
-        "corridaPrincipal": 21,
-        "corridaClassificatoria": 10.5,
-        "pilotosPontuacao": [
-          {
-            "nome": "Dacosta",
-            "corridaPrincipal": 5,
-            "corridaClassificatoria": 2.5
-          },
-          {
-            "nome": "Muller",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Nato",
-            "corridaPrincipal": 3,
-            "corridaClassificatoria": 1.5
-          },
-          {
-            "nome": "Gunther",
-            "corridaPrincipal": 2,
-            "corridaClassificatoria": 1
-          },
-          {
-            "nome": "Frijns",
-            "corridaPrincipal": 1,
-            "corridaClassificatoria": 0.5
-          },
-          {
-            "nome": "Fenestraz",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Digrassi",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Cassidy",
-            "corridaPrincipal": 10,
-            "corridaClassificatoria": 5
-          },
-          {
-            "nome": "Vandoorne",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          },
-          {
-            "nome": "Wehrlein",
-            "corridaPrincipal": 0,
-            "corridaClassificatoria": 0
-          }
-        ],
-        "equipePontuacao": {
-          "principal": 5,
-          "classificatoria": 2.5
-        }
-      }
+      "id": "97a8",
+      "usuario": "adm1",
+      "senha": "123"
+    },
+    {
+      "id": "cfec",
+      "usuario": "adm10",
+      "senha": "123"
     }
   ]
 }

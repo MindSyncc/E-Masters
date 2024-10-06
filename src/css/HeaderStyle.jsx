@@ -276,7 +276,7 @@ export const HeaderStyle = styled.section`
     }
 
     .navlink a {
-      font-size: 1.08rem;
+      font-size: 1.5rem;
     }
 
     .nav-list {

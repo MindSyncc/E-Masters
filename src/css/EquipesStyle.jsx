@@ -241,6 +241,14 @@ export const EquipesStyle = styled.section`
   @media (max-width: 480px) {
     .box-area {
       grid-template-columns: repeat(1, 1fr);
+      
     }
+
+    .slider img{
+      margin-top: -400px;
+    }
+
+    
+
   }
 `;

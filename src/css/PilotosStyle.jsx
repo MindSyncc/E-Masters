@@ -290,11 +290,25 @@ export const PilotosStyle = styled.section`
       cursor: pointer;
       font-size: 1rem;
     }
+      
   }
+
+  
   @media (max-width: 480px) {
     .box-area {
       grid-template-columns: repeat(1, 1fr);
     }
+
+   .slider {
+    width: 250%;
+    height: 100vh;
+    margin-left: -300px;
+  }
+
+  .texto-inicio{
+    margin-top: -150px;
+  }
+    
   }
 
   .pontuacoes-container {

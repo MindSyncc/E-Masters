@@ -169,6 +169,10 @@ export const FooterStyle = styled.section`
       font-size: 1.6rem;
     }
 
+    .direitos{
+      margin-top: 2px;
+    }
+
     .footer-col h4 {
       font-size: 1.8rem;
     }

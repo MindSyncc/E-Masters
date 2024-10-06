@@ -204,11 +204,12 @@ export const HomeStyle = styled.section`
       flex-direction: row; /* Mantém os círculos em linha */
       justify-content: space-around; /* Espaça os círculos igualmente */
       align-items: center;
+    
     }
 
     .circulo {
-      width: 75px;
-      height: 75px;
+      width: 95px;
+      height: 95px;
       margin: 5px;
     }
 

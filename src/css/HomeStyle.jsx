@@ -1025,6 +1025,7 @@ export const HomeStyle = styled.section`
     }
     .container-botao-noticias {
       text-align: center;
+      padding: 5px 10px;
     }
     .container-botao-noticias a {
       margin: 0;

@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { MdCancel } from "react-icons/md";
 import { JogoStyle } from "../css/JogoStyle";
 
 // Pilotos disponíveis para seleção, agora com imagens
@@ -101,7 +100,9 @@ const Jogo = () => {
 
   // Estado para diferenciar entre login e cadastro de usuário
   const [isCadastro, setIsCadastro] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(
+    !!sessionStorage.getItem("usuario")
+  ); // Verifica se o usuário está logado ao carregar
   let { id } = useParams();
   const [novoUsuario, setNovoUsuario] = useState({
     id,
@@ -121,6 +122,7 @@ const Jogo = () => {
     }
     return false;
   }
+
   // Função de envio de login
   const handleSubmitLogin = (e) => {
     e.preventDefault();
@@ -204,6 +206,15 @@ const Jogo = () => {
       .catch((err) => console.error("Erro ao enviar cadastro:", err));
   };
 
+  // Função de logout
+  const handleLogout = () => {
+    sessionStorage.removeItem("usuario");
+    sessionStorage.removeItem("senha");
+    setIsLoggedIn(false);
+    alert("Você foi deslogado com sucesso!");
+    navigate("/home"); // Redirecionar para a página de login
+  };
+
   // Alternar entre login e cadastro
   const toggleCadastro = () => {
     setIsCadastro(!isCadastro);
@@ -239,94 +250,155 @@ const Jogo = () => {
     };
   };
 
+
+  const enviarResultados = (resultados) => {
+    const usuarioLogado = sessionStorage.getItem("usuario"); // Obtenha o nome ou id do usuário logado
+    
+    // Busca o usuário existente pelo nome (ou ID) e atualiza os dados
+    fetch(`http://localhost:5000/usuarios?usuario=${usuarioLogado}`)
+      .then((res) => res.json())
+      .then((usuarios) => {
+        if (usuarios.length > 0) {
+          const usuarioExistente = usuarios[0]; // Assume que só há um usuário com esse nome
+  
+          // Atualiza os dados do usuário com os resultados
+          const usuarioAtualizado = {
+            ...usuarioExistente,
+            resultados: resultados, // Armazena os resultados no usuário
+          };
+  
+          // Envia a requisição PUT para atualizar o usuário existente
+          fetch(`http://localhost:5000/usuarios/${usuarioExistente.id}`, {
+            method: "PUT",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(usuarioAtualizado),
+          })
+            .then(() => {
+              alert("Resultados enviados e atualizados com sucesso!");
+            })
+            .catch((err) => {
+              console.error("Erro ao atualizar resultados:", err);
+              alert("Erro ao atualizar resultados.");
+            });
+        } else {
+          alert("Usuário não encontrado.");
+        }
+      })
+      .catch((err) => {
+        console.error("Erro ao buscar usuário:", err);
+        alert("Erro ao buscar usuário.");
+      });
+  };
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
   // Função para calcular os pontos
   const calcularPontuacao = () => {
-    console.log("Função calcularPontuacao foi chamada");
-    if (selectedPilotos.length !== 10) {
-      alert("Por favor, selecione 10 pilotos.");
-      return;
+  console.log("Função calcularPontuacao foi chamada");
+  if (selectedPilotos.length !== 10) {
+    alert("Por favor, selecione 10 pilotos.");
+    return;
+  }
+
+  if (!selectedEquipe) {
+    alert("Por favor, selecione uma equipe.");
+    return;
+  }
+
+  let totalCorridaPrincipal = 0;
+  let totalCorridaClassificatoria = 0;
+  let pontosEquipePrincipal = 0;
+  let pontosEquipeClassificatoria = 0;
+  let pilotosPontuacao = [];
+
+  const resultadosSimulados = simularResultados();
+  const usuarioLogado = sessionStorage.getItem("usuario"); // Captura o usuário logado
+
+  selectedPilotos.forEach((piloto, index) => {
+    let pontosCorridaPrincipal = 0;
+    let pontosCorridaClassificatoria = 0;
+
+    if (index === 0) pontosCorridaPrincipal += 10; // 1º lugar
+    else if (index === 1) pontosCorridaPrincipal += 5; // 2º lugar
+    else if (index === 2) pontosCorridaPrincipal += 3; // 3º lugar
+    else if (index === 3) pontosCorridaPrincipal += 2; // 4º lugar
+    else if (index === 4) pontosCorridaPrincipal += 1; // 5º lugar
+
+    if (index === 0) pontosCorridaClassificatoria += 5; // 1º lugar
+    else if (index === 1) pontosCorridaClassificatoria += 2.5; // 2º lugar
+    else if (index === 2) pontosCorridaClassificatoria += 1.5; // 3º lugar
+    else if (index === 3) pontosCorridaClassificatoria += 1; // 4º lugar
+    else if (index === 4) pontosCorridaClassificatoria += 0.5; // 5º lugar
+
+    if (resultadosSimulados.desqualificados.includes(piloto)) {
+      pontosCorridaPrincipal -= 5;
     }
 
-    if (!selectedEquipe) {
-      alert("Por favor, selecione uma equipe.");
-      return;
+    if (resultadosSimulados.desqualificados.includes(piloto)) {
+      pontosCorridaClassificatoria -= 2.5;
     }
-    let totalCorridaPrincipal = 0;
-    let totalCorridaClassificatoria = 0;
-    let pontosEquipePrincipal = 0;
-    let pontosEquipeClassificatoria = 0;
-    let pilotosPontuacao = [];
 
-    // Simula os resultados da corrida
-    const resultadosSimulados = simularResultados();
+    if (resultadosSimulados.voltaMaisRapida === piloto) {
+      pontosCorridaPrincipal += 10;
+    }
 
-    // Calcula a pontuação de cada piloto na corrida principal
-    selectedPilotos.forEach((piloto, index) => {
-      let pontosCorridaPrincipal = 0;
-      let pontosCorridaClassificatoria = 0;
+    if (resultadosSimulados.voltaMaisRapida === piloto) {
+      pontosCorridaClassificatoria += 5;
+    }
 
-      // Posição final na corrida principal
-      if (index === 0) pontosCorridaPrincipal += 10; // 1º lugar
-      else if (index === 1) pontosCorridaPrincipal += 5; // 2º lugar
-      else if (index === 2) pontosCorridaPrincipal += 3; // 3º lugar
-      else if (index === 3) pontosCorridaPrincipal += 2; // 4º lugar
-      else if (index === 4) pontosCorridaPrincipal += 1; // 5º lugar
-
-      // Posição final na corrida classificatória
-      if (index === 0) pontosCorridaClassificatoria += 5; // 1º lugar
-      else if (index === 1) pontosCorridaClassificatoria += 2.5; // 2º lugar
-      else if (index === 2) pontosCorridaClassificatoria += 1.5; // 3º lugar
-      else if (index === 3) pontosCorridaClassificatoria += 1; // 4º lugar
-      else if (index === 4) pontosCorridaClassificatoria += 0.5; // 5º lugar
-
-      // Verifica se o piloto foi desqualificado na corrida principal
-      if (resultadosSimulados.desqualificados.includes(piloto)) {
-        pontosCorridaPrincipal -= 5; // Penalidade de desqualificação
-      }
-
-      // Verifica se o piloto foi desqualificado na corrida classificatória
-      if (resultadosSimulados.desqualificados.includes(piloto)) {
-        pontosCorridaClassificatoria -= 2.5; // Penalidade de desqualificação
-      }
-
-      // Volta mais rápida na corrida principal
-      if (resultadosSimulados.voltaMaisRapida === piloto) {
-        pontosCorridaPrincipal += 10;
-      }
-
-      // Volta mais rápida na corrida classificatória
-      if (resultadosSimulados.voltaMaisRapida === piloto) {
-        pontosCorridaClassificatoria += 5;
-      }
-
-      // Acúmulo de pontos individuais para cada piloto
-      pilotosPontuacao.push({
-        nome: piloto.nome,
-        corridaPrincipal: pontosCorridaPrincipal,
-        corridaClassificatoria: pontosCorridaClassificatoria,
-      });
-
-      totalCorridaPrincipal += pontosCorridaPrincipal;
-      totalCorridaClassificatoria += pontosCorridaClassificatoria;
-
-      // Soma para a equipe (considerando os dois primeiros pilotos da equipe)
-      if (selectedPilotos.indexOf(piloto) < 2) {
-        pontosEquipePrincipal += pontosCorridaPrincipal;
-        pontosEquipeClassificatoria += pontosCorridaClassificatoria;
-      }
+    pilotosPontuacao.push({
+      nome: piloto.nome,
+      corridaPrincipal: pontosCorridaPrincipal,
+      corridaClassificatoria: pontosCorridaClassificatoria,
     });
 
-    // Atualiza os resultados com os totais e a pontuação da equipe
-    setResultados({
-      corridaPrincipal: totalCorridaPrincipal,
-      corridaClassificatoria: totalCorridaClassificatoria,
-      pilotosPontuacao,
-      equipePontuacao: {
-        principal: pontosEquipePrincipal,
-        classificatoria: pontosEquipeClassificatoria,
-      },
-    });
+    totalCorridaPrincipal += pontosCorridaPrincipal;
+    totalCorridaClassificatoria += pontosCorridaClassificatoria;
+
+    if (selectedPilotos.indexOf(piloto) < 2) {
+      pontosEquipePrincipal += pontosCorridaPrincipal;
+      pontosEquipeClassificatoria += pontosCorridaClassificatoria;
+    }
+  });
+
+  const resultados = {
+    corridaPrincipal: totalCorridaPrincipal,
+    corridaClassificatoria: totalCorridaClassificatoria,
+    pilotosPontuacao,
+    equipePontuacao: {
+      principal: pontosEquipePrincipal,
+      classificatoria: pontosEquipeClassificatoria,
+    },
   };
+
+  // Atualiza os resultados no estado
+  setResultados(resultados);
+
+  // Envia os resultados para a rota /resultados
+  enviarResultados(resultados);
+
+  sessionStorage.setItem("resultados", JSON.stringify(resultados));
+};
+
+
+  
+
+
+  
 
   return (
     <JogoStyle>
@@ -552,6 +624,7 @@ const Jogo = () => {
           </div>
         )
       ) : (
+        
         <div className="div-pilot">
           <p className="choice">Escolha Seus Pilotos</p>
           <div className="section-pilot">
@@ -569,6 +642,7 @@ const Jogo = () => {
                 <img src={piloto.imagem} alt={piloto.nome} />
                 {piloto.nome}
               </button>
+              
             ))}
           </div>
 
@@ -595,6 +669,7 @@ const Jogo = () => {
           <button className="button-game" onClick={calcularPontuacao}>
             Iniciar Corrida
           </button>
+          <button onClick={handleLogout}>Logout</button> {/* Botão de logout */}
 
           {resultados && (
             <div className="result-game">

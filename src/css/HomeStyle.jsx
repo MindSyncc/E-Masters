@@ -87,7 +87,7 @@ export const HomeStyle = styled.section`
       background-size: cover;
       top: 0;
       width: 100%;
-      height: 100vh;
+      height: 50vh;
     }
 
     .header-apresentacao {

@@ -560,8 +560,12 @@ export const HomeStyle = styled.section`
   /* Estilos para dispositivos móveis */
   @media only screen and (max-width: 480px) {
     .card {
-      width: 45%; /* Altera a largura para exibir dois cartões por linha */
-      margin-right: 5%; /* Adiciona um pequeno espaço entre os cartões */
+      width: 35%; /* Altera a largura para exibir dois cartões por linha */
+      margin-left: 15px;
+      grid-template-columns: repeat(2, 1fr); /* 2 colunas com largura igual */
+      gap: 15px; /* Espaçamento entre os cards */
+   
+      
     }
   }
 

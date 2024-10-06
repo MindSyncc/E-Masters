@@ -46,6 +46,8 @@ const Classificacao = () => {
     }, []);
   return (
     <ClassificacaoStyle className="margin-bottom-100">
+      <h1 className="h1-classificacao">Classificação 23/24</h1>
+      <div className="horizontal-line"></div>
 
       <h1 className="h1-classificacao">Classificação 23/24</h1>
       <div className="horizontal-line"></div>

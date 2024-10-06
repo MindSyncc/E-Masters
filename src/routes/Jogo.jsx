@@ -230,7 +230,7 @@ const Jogo = () => {
       if (prev.includes(piloto)) {
         return prev.filter((p) => p !== piloto);
       }
-      if (prev.length < 10) {
+      if (prev.length < 5) {
         return [...prev, piloto];
       }
       return prev;
@@ -309,8 +309,8 @@ const Jogo = () => {
   // Função para calcular os pontos
   const calcularPontuacao = () => {
   console.log("Função calcularPontuacao foi chamada");
-  if (selectedPilotos.length !== 10) {
-    alert("Por favor, selecione 10 pilotos.");
+  if (selectedPilotos.length !== 5) {
+    alert("Por favor, selecione 5 pilotos.");
     return;
   }
 

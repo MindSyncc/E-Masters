@@ -41,3 +41,4 @@ export const PilotoItem = styled.li`
   align-items: center;
   justify-content: center;
 `;
+

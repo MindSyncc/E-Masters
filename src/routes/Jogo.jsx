@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { JogoStyle } from "../css/JogoStyle";
+import { Link } from "react-router-dom";
 
 // Pilotos disponíveis para seleção, agora com imagens
 const pilotos = [
@@ -644,7 +645,7 @@ const Jogo = () => {
                   onClick={() => handleEquipeSelect(equipe)}
                   style={{
                     backgroundColor:
-                      selectedEquipe === equipe ? "#FFD700" : "white",
+                      selectedEquipe === equipe ? "#71da90" : "white",
                   }}
                 >
                   <img src={equipe.imagem} alt={equipe.nome} />
@@ -657,45 +658,15 @@ const Jogo = () => {
           <button className="button-game" onClick={calcularPontuacao}>
             Iniciar Corrida
           </button>
-          <button onClick={handleLogout}>Logout</button> {/* Botão de logout */}
 
-          {resultados && (
-            <div className="result-game">
-              <h3>Resultados</h3>
-              <p>
-                <strong>Total da Corrida Principal:</strong>{" "}
-                {resultados.corridaPrincipal} pontos
-              </p>
-              <p>
-                <strong>Total da Corrida Classificatória:</strong>{" "}
-                {resultados.corridaClassificatoria} pontos
-              </p>
 
-              <h4>Pontuação Individual de Pilotos:</h4>
-              {resultados.pilotosPontuacao.map((piloto, index) => (
-                <div key={index}>
-                  <p>
-                    <strong>{piloto.nome}:</strong>
-                  </p>
-                  <p>Corrida Principal: {piloto.corridaPrincipal} pontos</p>
-                  <p>
-                    Corrida Classificatória: {piloto.corridaClassificatoria}{" "}
-                    pontos
-                  </p>
-                </div>
-              ))}
+          <Link to="/resultados" className="link">
+        <button className="button-game">Visualize seus Resultados</button>
+          </Link>
 
-              <h4>Pontuação da Equipe:</h4>
-              <p>
-                <strong>Corrida Principal:</strong>{" "}
-                {resultados.equipePontuacao.principal} pontos
-              </p>
-              <p>
-                <strong>Corrida Classificatória:</strong>{" "}
-                {resultados.equipePontuacao.classificatoria} pontos
-              </p>
-            </div>
-          )}
+          <button className="button-game" onClick={handleLogout}>Logout</button> {/* Botão de logout */}
+
+
         </div>
       )}
     </JogoStyle>

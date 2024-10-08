@@ -27,21 +27,21 @@ const Resultado = () => {
       
       <Card>
         <SubTitle>Corrida Principal</SubTitle>
-        <p>Total Pontuação: {resultados.corridaPrincipal}</p>
+        <p style={{fontSize:"1.6rem"}}>Total Pontuação: {resultados.corridaPrincipal}</p>
       </Card>
 
       <Card>
         <SubTitle>Corrida Classificatória</SubTitle>
-        <p>Total Pontuação: {resultados.corridaClassificatoria}</p>
+        <p style={{fontSize:"1.6rem"}}>Total Pontuação: {resultados.corridaClassificatoria}</p>
       </Card>
 
       <Card>
         <SubTitle>Pontuação dos Pilotos</SubTitle>
-        <ul>
+        <ul style={{fontSize:"1.6rem"}}>
           {resultados.pilotosPontuacao.map((piloto, index) => (
             <PilotoItem key={index}>
-              <div>
-                <strong>{piloto.nome}</strong>:<br />
+              <div style={{fontSize:"1.6rem"}}>
+                <strong style={{fontSize:"1.6rem"}}>{piloto.nome}</strong>:<br />
                 Corrida Principal: {piloto.corridaPrincipal} pontos<br />
                 Corrida Classificatória: {piloto.corridaClassificatoria} pontos
               </div>
@@ -52,7 +52,7 @@ const Resultado = () => {
 
       <Card>
         <SubTitle>Pontuação da Equipe</SubTitle>
-        <p>
+        <p style={{fontSize:"1.6rem"}}>
           Corrida Principal: {resultados.equipePontuacao.principal} pontos<br />
           Corrida Classificatória: {resultados.equipePontuacao.classificatoria} pontos
         </p>

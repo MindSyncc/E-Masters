@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const JogoStyle = styled.section`
+link{
+  list-style: none;
+}
   * {
     font-size: 2rem;
   }
@@ -16,6 +19,13 @@ export const JogoStyle = styled.section`
     text-align: center;
     margin-bottom: 4rem;
   }
+  .div-pilot{
+    margin-top: 8vh;
+  }
+
+  .link {
+  text-decoration: none;
+}
 
   .section-pilot {
     display: flex;
@@ -99,6 +109,7 @@ export const JogoStyle = styled.section`
   }
 
   .div-pilot {
+
     padding: 20px;
     text-align: center;
   }

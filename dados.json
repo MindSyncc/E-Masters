@@ -6,27 +6,27 @@
       "senha": "123",
       "resultados": {
         "corridaPrincipal": 28,
-        "corridaClassificatoria": 13,
+        "corridaClassificatoria": 14,
         "pilotosPontuacao": [
           {
-            "nome": "Nato",
+            "nome": "Frijns",
             "corridaPrincipal": 10,
             "corridaClassificatoria": 5
           },
           {
             "nome": "Vandoorne",
             "corridaPrincipal": 5,
-            "corridaClassificatoria": 2
+            "corridaClassificatoria": 2.5
           },
           {
             "nome": "Ticktum",
             "corridaPrincipal": 13,
-            "corridaClassificatoria": 6
+            "corridaClassificatoria": 6.5
           }
         ],
         "equipePontuacao": {
           "principal": 15,
-          "classificatoria": 7
+          "classificatoria": 7.5
         }
       }
     },
@@ -157,6 +157,36 @@
         "equipePontuacao": {
           "principal": 15,
           "classificatoria": 7.5
+        }
+      }
+    },
+    {
+      "id": "dc5e",
+      "usuario": "Ana",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Muller",
+            "corridaPrincipal": 10,
+            "corridaClassificatoria": 5
+          },
+          {
+            "nome": "Vandoorne",
+            "corridaPrincipal": 15,
+            "corridaClassificatoria": 7.5
+          },
+          {
+            "nome": "Sette-Câmara",
+            "corridaPrincipal": 3,
+            "corridaClassificatoria": 1.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 25,
+          "classificatoria": 12.5
         }
       }
     }

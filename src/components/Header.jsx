@@ -88,13 +88,16 @@ const Header = () => {
             </div>
             <ul className="nav-list" ref={navListRef}>
               {[
+                "/jogo",
+                "/resultados",
                 "/regras",
                 "/calendário",
                 "/pilotos",
-                "/classificação",
                 "/equipes",
+                "/classificação",
+                "/ranking",
                 "/notícias",
-                "/jogo",
+                
               ].map((path, index) => (
                 <li
                   className="navlink"

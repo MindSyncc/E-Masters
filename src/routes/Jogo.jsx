@@ -647,7 +647,7 @@ const Jogo = () => {
                   onClick={() => handleEquipeSelect(equipe)}
                   style={{
                     backgroundColor:
-                      selectedEquipe === equipe ? "#71da90" : "white",
+                      selectedEquipe === equipe ? "#65c983" : "white",
                   }}
                 >
                   <img src={equipe.imagem} alt={equipe.nome} />

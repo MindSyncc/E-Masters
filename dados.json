@@ -1,0 +1,224 @@
+{
+  "usuarios": [
+    {
+      "id": "19f3",
+      "usuario": "Julia",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Frijns",
+            "corridaPrincipal": 10,
+            "corridaClassificatoria": 5
+          },
+          {
+            "nome": "Vandoorne",
+            "corridaPrincipal": 5,
+            "corridaClassificatoria": 2.5
+          },
+          {
+            "nome": "Ticktum",
+            "corridaPrincipal": 13,
+            "corridaClassificatoria": 6.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 15,
+          "classificatoria": 7.5
+        }
+      }
+    },
+    {
+      "id": "ba57",
+      "usuario": "Gabi",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 21,
+        "corridaClassificatoria": 10.5,
+        "pilotosPontuacao": [
+          {
+            "nome": "Digrassi",
+            "corridaPrincipal": 5,
+            "corridaClassificatoria": 2.5
+          },
+          {
+            "nome": "Muller",
+            "corridaPrincipal": 0,
+            "corridaClassificatoria": 0
+          },
+          {
+            "nome": "Nato",
+            "corridaPrincipal": 13,
+            "corridaClassificatoria": 6.5
+          },
+          {
+            "nome": "Wehrlein",
+            "corridaPrincipal": 2,
+            "corridaClassificatoria": 1
+          },
+          {
+            "nome": "Ticktum",
+            "corridaPrincipal": 1,
+            "corridaClassificatoria": 0.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 5,
+          "classificatoria": 2.5
+        }
+      }
+    },
+    {
+      "id": "e053",
+      "usuario": "Bia",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Fenestraz",
+            "corridaPrincipal": 10,
+            "corridaClassificatoria": 5
+          },
+          {
+            "nome": "Nato",
+            "corridaPrincipal": 5,
+            "corridaClassificatoria": 2.5
+          },
+          {
+            "nome": "Cassidy",
+            "corridaPrincipal": 13,
+            "corridaClassificatoria": 6.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 15,
+          "classificatoria": 7.5
+        }
+      }
+    },
+    {
+      "id": "2e20",
+      "usuario": "João",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Muller",
+            "corridaPrincipal": 10,
+            "corridaClassificatoria": 5
+          },
+          {
+            "nome": "Mortara",
+            "corridaPrincipal": 5,
+            "corridaClassificatoria": 2.5
+          },
+          {
+            "nome": "Ticktum",
+            "corridaPrincipal": 13,
+            "corridaClassificatoria": 6.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 15,
+          "classificatoria": 7.5
+        }
+      }
+    },
+    {
+      "id": "ca71",
+      "usuario": "Felipe",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Muller",
+            "corridaPrincipal": 10,
+            "corridaClassificatoria": 5
+          },
+          {
+            "nome": "Evans",
+            "corridaPrincipal": 5,
+            "corridaClassificatoria": 2.5
+          },
+          {
+            "nome": "Hughes",
+            "corridaPrincipal": 13,
+            "corridaClassificatoria": 6.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 15,
+          "classificatoria": 7.5
+        }
+      }
+    },
+    {
+      "id": "dc5e",
+      "usuario": "Ana",
+      "senha": "123",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Muller",
+            "corridaPrincipal": 10,
+            "corridaClassificatoria": 5
+          },
+          {
+            "nome": "Vandoorne",
+            "corridaPrincipal": 15,
+            "corridaClassificatoria": 7.5
+          },
+          {
+            "nome": "Sette-Câmara",
+            "corridaPrincipal": 3,
+            "corridaClassificatoria": 1.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 25,
+          "classificatoria": 12.5
+        }
+      }
+    },
+    {
+      "id": "67dc",
+      "usuario": "admin",
+      "senha": "1234",
+      "resultados": {
+        "corridaPrincipal": 28,
+        "corridaClassificatoria": 14,
+        "pilotosPontuacao": [
+          {
+            "nome": "Wehrlein",
+            "corridaPrincipal": 20,
+            "corridaClassificatoria": 10
+          },
+          {
+            "nome": "Vergne",
+            "corridaPrincipal": 5,
+            "corridaClassificatoria": 2.5
+          },
+          {
+            "nome": "Wehrlein",
+            "corridaPrincipal": 3,
+            "corridaClassificatoria": 1.5
+          }
+        ],
+        "equipePontuacao": {
+          "principal": 25,
+          "classificatoria": 12.5
+        }
+      }
+    }
+  ]
+}
